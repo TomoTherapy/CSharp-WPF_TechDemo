@@ -1,2 +1,2 @@
-# WPF_TechDemo
-experimental examples of WPF usage
+# C#/WPF_TechDemo
+experimental examples of C# and WPF usage
