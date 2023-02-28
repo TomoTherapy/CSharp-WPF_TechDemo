@@ -1,0 +1,16 @@
+D:\repos\TomoTherapy\CSharp-WPF_TechDemo\Demos\LetTheEventFly\bin\Debug\LetTheEventFly.exe.config
+D:\repos\TomoTherapy\CSharp-WPF_TechDemo\Demos\LetTheEventFly\bin\Debug\LetTheEventFly.exe
+D:\repos\TomoTherapy\CSharp-WPF_TechDemo\Demos\LetTheEventFly\bin\Debug\LetTheEventFly.pdb
+D:\repos\TomoTherapy\CSharp-WPF_TechDemo\Demos\LetTheEventFly\obj\Debug\LetTheEventFly.csproj.AssemblyReference.cache
+D:\repos\TomoTherapy\CSharp-WPF_TechDemo\Demos\LetTheEventFly\obj\Debug\LetTheEventFly.csproj.SuggestedBindingRedirects.cache
+D:\repos\TomoTherapy\CSharp-WPF_TechDemo\Demos\LetTheEventFly\obj\Debug\MainWindow.g.cs
+D:\repos\TomoTherapy\CSharp-WPF_TechDemo\Demos\LetTheEventFly\obj\Debug\App.g.cs
+D:\repos\TomoTherapy\CSharp-WPF_TechDemo\Demos\LetTheEventFly\obj\Debug\LetTheEventFly_MarkupCompile.cache
+D:\repos\TomoTherapy\CSharp-WPF_TechDemo\Demos\LetTheEventFly\obj\Debug\LetTheEventFly_MarkupCompile.lref
+D:\repos\TomoTherapy\CSharp-WPF_TechDemo\Demos\LetTheEventFly\obj\Debug\MainWindow.baml
+D:\repos\TomoTherapy\CSharp-WPF_TechDemo\Demos\LetTheEventFly\obj\Debug\LetTheEventFly.g.resources
+D:\repos\TomoTherapy\CSharp-WPF_TechDemo\Demos\LetTheEventFly\obj\Debug\LetTheEventFly.Properties.Resources.resources
+D:\repos\TomoTherapy\CSharp-WPF_TechDemo\Demos\LetTheEventFly\obj\Debug\LetTheEventFly.csproj.GenerateResource.cache
+D:\repos\TomoTherapy\CSharp-WPF_TechDemo\Demos\LetTheEventFly\obj\Debug\LetTheEventFly.csproj.CoreCompileInputs.cache
+D:\repos\TomoTherapy\CSharp-WPF_TechDemo\Demos\LetTheEventFly\obj\Debug\LetTheEventFly.exe
+D:\repos\TomoTherapy\CSharp-WPF_TechDemo\Demos\LetTheEventFly\obj\Debug\LetTheEventFly.pdb
