@@ -1,2 +1,2 @@
-# WPF_Tech
+# WPF_TechDemo
 experimental examples of WPF usage
