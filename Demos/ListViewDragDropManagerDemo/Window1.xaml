@@ -42,7 +42,6 @@
             <RowDefinition Height="*" />
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
-
         <GroupBox Header="Main ListView Settings" Grid.Row="0" Margin="4" Padding="2">
             <StackPanel>
                 <StackPanel.Resources>
@@ -51,17 +50,9 @@
                         <Setter Property="IsChecked" Value="True" />
                     </Style>
                 </StackPanel.Resources>
-                <CheckBox 
-          Name="chkManageDragging" 
-          Margin="4"
-          >
-                    Manage Dragging of ListViewItems
-                </CheckBox>
+                <CheckBox Name="chkManageDragging" Margin="4" Content="Manage Dragging of ListViewItems"/>
                 <StackPanel Margin="4" IsEnabled="{Binding ElementName=chkManageDragging, Path=IsChecked}">
-                    <CheckBox 
-            Name="chkDragAdorner" 
-            Margin="0,4" 
-            >
+                    <CheckBox Name="chkDragAdorner" Margin="0,4">
                         Show Drag Adorner
                     </CheckBox>
                     <StackPanel Orientation="Horizontal" Margin="0,4" IsEnabled="{Binding ElementName=chkDragAdorner, Path=IsChecked}">
@@ -71,38 +62,13 @@
                     </StackPanel>
                 </StackPanel>
                 <Line Stroke="DarkGray" Stretch="Fill" StrokeThickness="0.5" X1="0" X2="1" />
-                <CheckBox 
-          Name="chkApplyContStyle" 
-          Margin="4,8,4,4"
-          ToolTip="If checked, the ListView's ItemContainerStyle is set to a Style which reacts to the drag operation."
-          >
-                    Apply Item Container Style
-                </CheckBox>
-                <CheckBox 
-          Name="chkSwapDroppedItem" 
-          IsChecked="False" 
-          Margin="4" 
-          ToolTip="If checked, the dropped item and the item at the target index will exchange locations."
-          >
-                    Use Custom Drop Logic
-                </CheckBox>
-                <CheckBox 
-          Name="chkShowOtherListView" 
-          IsChecked="False"
-          Margin="4" 
-          ToolTip="If checked, another ListView is visible.  The items from one ListView can be dropped into the other ListView."
-          >
-                    Show Other ListView
-                </CheckBox>
+                <CheckBox Name="chkApplyContStyle" Margin="4,8,4,4" ToolTip="If checked, the ListView's ItemContainerStyle is set to a Style which reacts to the drag operation." Content="Apply Item Container Style"/>
+                <CheckBox Name="chkSwapDroppedItem" IsChecked="False" Margin="4" ToolTip="If checked, the dropped item and the item at the target index will exchange locations." Content="Use Custom Drop Logic"/>
+                <CheckBox Name="chkShowOtherListView" IsChecked="False" Margin="4" ToolTip="If checked, another ListView is visible.  The items from one ListView can be dropped into the other ListView." Content="Show Other ListView"/>
             </StackPanel>
         </GroupBox>
-
-        <ListView Name="listView"
-      Grid.Row="1"   
-      ItemContainerStyle="{StaticResource ItemContStyle}"
-      Margin="4" 
-      Padding="2"
-      SelectionMode="Single">
+        
+        <ListView Name="listView" Grid.Row="1" ItemContainerStyle="{StaticResource ItemContStyle}" Margin="4" Padding="2" SelectionMode="Single">
             <ListView.View>
                 <GridView>
                     <GridViewColumn Header="Finished">
@@ -118,16 +84,7 @@
                 </GridView>
             </ListView.View>
         </ListView>
-
-        <ListView Name="listView2"
-      Grid.Row="2"  
-      Height="185" 
-      ItemContainerStyle="{StaticResource ItemContStyle}"
-      Margin="4" 
-      Padding="2"
-      SelectionMode="Single"
-      Visibility="Collapsed"
-      >
+        <ListView Name="listView2" Grid.Row="2" Height="185" Margin="4" Padding="2" SelectionMode="Single" Visibility="Collapsed" ItemContainerStyle="{StaticResource ItemContStyle}">
             <ListView.View>
                 <GridView>
                     <GridViewColumn Header="Finished">
